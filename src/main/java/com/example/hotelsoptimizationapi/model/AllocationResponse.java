@@ -11,19 +11,10 @@ import lombok.Setter;
 @AllArgsConstructor
 public class AllocationResponse {
 
-    private int usedPremiumRooms; // Number of premium rooms used
-    private int usedEconomyRooms; // Number of economy rooms used
-    private int totalRevenuePremium; // Total revenue from premium rooms
-    private int totalRevenueEconomy; // Total revenue from economy rooms
+    private int usedPremiumRooms;
+    private int usedEconomyRooms;
+    private int totalRevenuePremium;
+    private int totalRevenueEconomy;
 
-    @Override
-    public String toString() {
-        return "AllocationResponse{" +
-                "usedPremiumRooms=" + usedPremiumRooms +
-                ", usedEconomyRooms=" + usedEconomyRooms +
-                ", totalRevenuePremium=" + totalRevenuePremium +
-                ", totalRevenueEconomy=" + totalRevenueEconomy +
-                '}';
-    }
 
 }
